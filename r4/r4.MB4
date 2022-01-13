@@ -1,0 +1,21 @@
+10 SPD 20
+
+20 M_OUT(2)=0 ' ana konveyoru devam ettir.
+
+30 M_OUT(0)=1
+40 WAIT M_IN(0)=1
+50 M_OUT(0)=0 ' konveyoru durdur
+
+60 WAIT M_IN(1)=1 'onune parca gelmesini bekle
+70 M_OUT(2)=1
+80 WAIT M_IN(2)=1
+90 MOV P1,-50
+100 MOV P1
+110 M_OUT(1)=1 ' parcayi tut
+120 MOV P1,-50
+130 MOV P2
+140 MOV P3
+150 M_OUT(1)=0
+160 MOV P3,-50
+170 M_OUT(2)=0 
+180 GOTO 20

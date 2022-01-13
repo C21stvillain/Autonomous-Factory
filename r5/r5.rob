@@ -1,0 +1,230 @@
+TIMESTAMP: DATE: 6.12.2021 TIME: 17:32:36
+---------------------------------------------------------------------------
+
+MODUL: R5 MAIN ?MAIN:START?
+COMPILER: MBA4.EXE
+VERSION: 4.0.0.2
+NEXT GLOBAL ADDRESS: <0:50>
+
+---------------------------------------------------------------------------
+EXPORT
+---------------------------------------------------------------------------
+
+PROC: R5
+FORMAL PARAMETERS: 
+
+---------------------------------------------------------------------------
+IMPORT
+---------------------------------------------------------------------------
+
+VAR: M_OUT
+TYPE: ARRAY(dim(SIZE(1,1000),NIL),INT)
+
+VAR: M_IN
+TYPE: ARRAY(dim(SIZE(1,1000),NIL),INT)
+
+---------------------------------------------------------------------------
+SYMBOLIC IRDATA
+---------------------------------------------------------------------------
+DECLARATION :
+BEGIN
+DEFREC,1,B,1,WLD,1,ADX,2,I; <USER:R5#P1> :=  <0:0>
+DEFREC,1,B,1,WLD,1,ADX,2,I; <USER:R5#P2> :=  <0:5>
+DEFREC,1,B,1,WLD,1,ADX,2,I; <USER:R5#P3> :=  <0:10>
+DEFREC,1,B,1,WLD,1,ADX,2,I; <USER:R5#P4> :=  <0:15>
+DEFREC,1,B,1,WLD,1,ADX,2,I; <USER:R5#P5> :=  <0:20>
+DEFREC,1,B,1,WLD,1,ADX,2,I; <USER:R5#P6> :=  <0:25>
+DEFREC,1,B,1,WLD,1,ADX,2,I; <USER:R5#P7> :=  <0:30>
+DEFREC,1,B,1,WLD,1,ADX,2,I; <USER:R5#P8> :=  <0:35>
+DEFREC,1,B,1,WLD,1,ADX,2,I; <USER:R5#P9> :=  <0:40>
+DEFREC,1,B,1,WLD,1,ADX,2,I;// Direct Source Register
+MOVDAT,B,%BR,<0:45>,B,%CON,1;
+MOVDAT,WLDPOSX,%BR,<0:46>,R,%CON,694.58;
+MOVDAT,WLDPOSY,%BR,<0:46>,R,%CON,2151.00;
+MOVDAT,WLDPOSZ,%BR,<0:46>,R,%CON,1047.79;
+MOVDAT,WLDORIT,%BR,<0:46>,R,%CON,-3.141593;
+MOVDAT,WLDORIA,%BR,<0:46>,R,%CON,1.554390;
+MOVDAT,WLDORIO,%BR,<0:46>,R,%CON,0.000000;
+MOVDAT,ADX1,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,ADX2,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,I,%BR,<0:48>,I,%CON,7;
+MOVDAT,I,%BR,<0:49>,I,%CON,0;
+MOVMEM,40,%BR,<0:0>,%BR,<0:45>;
+MOVDAT,B,%BR,<0:45>,B,%CON,1;
+MOVDAT,WLDPOSX,%BR,<0:46>,R,%CON,741.57;
+MOVDAT,WLDPOSY,%BR,<0:46>,R,%CON,2151.00;
+MOVDAT,WLDPOSZ,%BR,<0:46>,R,%CON,1048.56;
+MOVDAT,WLDORIT,%BR,<0:46>,R,%CON,-3.141593;
+MOVDAT,WLDORIA,%BR,<0:46>,R,%CON,1.554390;
+MOVDAT,WLDORIO,%BR,<0:46>,R,%CON,0.000000;
+MOVDAT,ADX1,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,ADX2,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,I,%BR,<0:48>,I,%CON,7;
+MOVDAT,I,%BR,<0:49>,I,%CON,0;
+MOVMEM,40,%BR,<0:5>,%BR,<0:45>;
+MOVDAT,B,%BR,<0:45>,B,%CON,1;
+MOVDAT,WLDPOSX,%BR,<0:46>,R,%CON,690.86;
+MOVDAT,WLDPOSY,%BR,<0:46>,R,%CON,2134.15;
+MOVDAT,WLDPOSZ,%BR,<0:46>,R,%CON,780.70;
+MOVDAT,WLDORIT,%BR,<0:46>,R,%CON,-1.609717;
+MOVDAT,WLDORIA,%BR,<0:46>,R,%CON,0.748746;
+MOVDAT,WLDORIO,%BR,<0:46>,R,%CON,1.584061;
+MOVDAT,ADX1,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,ADX2,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,I,%BR,<0:48>,I,%CON,6;
+MOVDAT,I,%BR,<0:49>,I,%CON,0;
+MOVMEM,40,%BR,<0:10>,%BR,<0:45>;
+MOVDAT,B,%BR,<0:45>,B,%CON,1;
+MOVDAT,WLDPOSX,%BR,<0:46>,R,%CON,690.86;
+MOVDAT,WLDPOSY,%BR,<0:46>,R,%CON,2134.15;
+MOVDAT,WLDPOSZ,%BR,<0:46>,R,%CON,780.70;
+MOVDAT,WLDORIT,%BR,<0:46>,R,%CON,-1.599420;
+MOVDAT,WLDORIA,%BR,<0:46>,R,%CON,-0.077667;
+MOVDAT,WLDORIO,%BR,<0:46>,R,%CON,1.612684;
+MOVDAT,ADX1,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,ADX2,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,I,%BR,<0:48>,I,%CON,6;
+MOVDAT,I,%BR,<0:49>,I,%CON,0;
+MOVMEM,40,%BR,<0:15>,%BR,<0:45>;
+MOVDAT,B,%BR,<0:45>,B,%CON,1;
+MOVDAT,WLDPOSX,%BR,<0:46>,R,%CON,703.63;
+MOVDAT,WLDPOSY,%BR,<0:46>,R,%CON,2134.66;
+MOVDAT,WLDPOSZ,%BR,<0:46>,R,%CON,781.06;
+MOVDAT,WLDORIT,%BR,<0:46>,R,%CON,-1.599420;
+MOVDAT,WLDORIA,%BR,<0:46>,R,%CON,-0.077667;
+MOVDAT,WLDORIO,%BR,<0:46>,R,%CON,1.612684;
+MOVDAT,ADX1,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,ADX2,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,I,%BR,<0:48>,I,%CON,6;
+MOVDAT,I,%BR,<0:49>,I,%CON,0;
+MOVMEM,40,%BR,<0:20>,%BR,<0:45>;
+MOVDAT,B,%BR,<0:45>,B,%CON,1;
+MOVDAT,WLDPOSX,%BR,<0:46>,R,%CON,637.26;
+MOVDAT,WLDPOSY,%BR,<0:46>,R,%CON,2215.35;
+MOVDAT,WLDPOSZ,%BR,<0:46>,R,%CON,654.64;
+MOVDAT,WLDORIT,%BR,<0:46>,R,%CON,-1.599420;
+MOVDAT,WLDORIA,%BR,<0:46>,R,%CON,-0.077667;
+MOVDAT,WLDORIO,%BR,<0:46>,R,%CON,2.562492;
+MOVDAT,ADX1,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,ADX2,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,I,%BR,<0:48>,I,%CON,6;
+MOVDAT,I,%BR,<0:49>,I,%CON,0;
+MOVMEM,40,%BR,<0:25>,%BR,<0:45>;
+MOVDAT,B,%BR,<0:45>,B,%CON,1;
+MOVDAT,WLDPOSX,%BR,<0:46>,R,%CON,601.20;
+MOVDAT,WLDPOSY,%BR,<0:46>,R,%CON,2215.84;
+MOVDAT,WLDPOSZ,%BR,<0:46>,R,%CON,654.64;
+MOVDAT,WLDORIT,%BR,<0:46>,R,%CON,-1.599420;
+MOVDAT,WLDORIA,%BR,<0:46>,R,%CON,-0.077667;
+MOVDAT,WLDORIO,%BR,<0:46>,R,%CON,3.082601;
+MOVDAT,ADX1,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,ADX2,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,I,%BR,<0:48>,I,%CON,6;
+MOVDAT,I,%BR,<0:49>,I,%CON,0;
+MOVMEM,40,%BR,<0:30>,%BR,<0:45>;
+MOVDAT,B,%BR,<0:45>,B,%CON,1;
+MOVDAT,WLDPOSX,%BR,<0:46>,R,%CON,631.17;
+MOVDAT,WLDPOSY,%BR,<0:46>,R,%CON,2070.47;
+MOVDAT,WLDPOSZ,%BR,<0:46>,R,%CON,654.64;
+MOVDAT,WLDORIT,%BR,<0:46>,R,%CON,-1.599420;
+MOVDAT,WLDORIA,%BR,<0:46>,R,%CON,-0.077667;
+MOVDAT,WLDORIO,%BR,<0:46>,R,%CON,0.550128;
+MOVDAT,ADX1,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,ADX2,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,I,%BR,<0:48>,I,%CON,6;
+MOVDAT,I,%BR,<0:49>,I,%CON,0;
+MOVMEM,40,%BR,<0:35>,%BR,<0:45>;
+MOVDAT,B,%BR,<0:45>,B,%CON,1;
+MOVDAT,WLDPOSX,%BR,<0:46>,R,%CON,659.40;
+MOVDAT,WLDPOSY,%BR,<0:46>,R,%CON,2306.70;
+MOVDAT,WLDPOSZ,%BR,<0:46>,R,%CON,1033.90;
+MOVDAT,WLDORIT,%BR,<0:46>,R,%CON,3.141593;
+MOVDAT,WLDORIA,%BR,<0:46>,R,%CON,1.554390;
+MOVDAT,WLDORIO,%BR,<0:46>,R,%CON,0.000000;
+MOVDAT,ADX1,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,ADX2,%BR,<0:47>,R,%CON,1E38;
+MOVDAT,I,%BR,<0:48>,I,%CON,7;
+MOVDAT,I,%BR,<0:49>,I,%CON,0;
+MOVMEM,40,%BR,<0:40>,%BR,<0:45>;
+END
+---------------------------------------------------------------------------
+BODY :
+BEGIN
+!MAIN:START!MOVDAT,I,%BR,<SYS:DEBUGON:0>,I,%CON,0;
+MOVDAT,S,%BR,<SYS:ERRORBEEPPATH:0>,S,%CON,'C:\COSIMIR Professional\BIN\lib\mba4\mba4esnd.rob';
+TSKBEG,0,25,'TASK::R5';
+MOVDAT,I,%ST,0,I,%CON,24270;
+!EXT:R5!!R5:_R5!PRCBEG,0,'R5';
+BLBEG,0,1;
+DEFREC,1,B;// Direct Source Register
+!R5:1!CASE,%ST,0,-1,?R5:2?;
+!R5:2!!R5:_10!LINENO,1,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+MOVDAT,I,%BR,<SYS:LINE:0>,I,%CON,10;
+LINENO,1,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+MOVDAT,I,%BR,<EXT:M_OUT:0>,I,%CON,0;
+DIGOUT,%CON,0,%CON,1,I,%BR,<EXT:M_OUT:0>,%ST,0,I,%CON,0;
+CLRST,I;
+!R5:_20!LINENO,2,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+MOVDAT,I,%BR,<SYS:LINE:0>,I,%CON,20;
+LINENO,2,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+DIGIN,%CON,4,%CON,1,I,%BR,<EXT:M_IN:4>;
+EQ,B,%BR,<1:0>,I,%BR,<EXT:M_IN:4>,I,%CON,0;
+IF,%BR,<1:0>,?R5:3?;
+LINENO,2,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+GOTO,?R5:_30?;
+GOTO,?R5:4?;
+!R5:3!LINENO,2,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+GOTO,?R5:_10?;
+!R5:4!!R5:_30!LINENO,5,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+MOVDAT,I,%BR,<SYS:LINE:0>,I,%CON,30;
+LINENO,5,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+DIGIN,%CON,5,%CON,1,I,%BR,<EXT:M_IN:5>;
+EQ,B,%BR,<1:0>,I,%BR,<EXT:M_IN:5>,I,%CON,0;
+IF,%BR,<1:0>,?R5:5?;
+LINENO,5,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+GOTO,?R5:_40?;
+GOTO,?R5:6?;
+!R5:5!LINENO,5,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+GOTO,?R5:_10?;
+!R5:6!!R5:_40!LINENO,6,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+MOVDAT,I,%BR,<SYS:LINE:0>,I,%CON,40;
+LINENO,6,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+DIGIN,%CON,6,%CON,1,I,%BR,<EXT:M_IN:6>;
+EQ,B,%BR,<1:0>,I,%BR,<EXT:M_IN:6>,I,%CON,0;
+IF,%BR,<1:0>,?R5:7?;
+LINENO,6,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+GOTO,?R5:_50?;
+GOTO,?R5:8?;
+!R5:7!LINENO,6,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+GOTO,?R5:_10?;
+!R5:8!!R5:_50!LINENO,9,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+MOVDAT,I,%BR,<SYS:LINE:0>,I,%CON,50;
+LINENO,9,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+DIGIN,%CON,7,%CON,1,I,%BR,<EXT:M_IN:7>;
+EQ,B,%BR,<1:0>,I,%BR,<EXT:M_IN:7>,I,%CON,0;
+IF,%BR,<1:0>,?R5:9?;
+LINENO,9,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+GOTO,?R5:_60?;
+GOTO,?R5:10?;
+!R5:9!LINENO,9,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+GOTO,?R5:_10?;
+!R5:10!!R5:_60!LINENO,12,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+MOVDAT,I,%BR,<SYS:LINE:0>,I,%CON,60;
+LINENO,12,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+MOVDAT,I,%BR,<EXT:M_OUT:0>,I,%CON,1;
+DIGOUT,%CON,0,%CON,1,I,%BR,<EXT:M_OUT:0>,%ST,0,I,%CON,0;
+CLRST,I;
+!R5:_70!LINENO,13,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+MOVDAT,I,%BR,<SYS:LINE:0>,I,%CON,70;
+LINENO,13,'C:\Users\hd\Desktop\robotproje\r5\r5.MB4',508;
+GOTO,?R5:_20?;
+!R5:0!CONSTATE,%CON,-2,%CON,0;
+BLEND;
+PRCEND;
+TSKEND;
+END
+---------------------------------------------------------------------------
+SUBROUTINES :
+BEGIN
+END
+---------------------------------------------------------------------------

@@ -1,0 +1,36 @@
+10 SPD 10
+
+20 M_OUT(2)=0
+
+
+30 M_OUT(0)=1
+40 WAIT M_IN(0)=1 ' yeni parca gelmesini bekle
+50 M_OUT(0)=0
+60 MOV P1,-50
+70 MOV P1
+80 M_OUT(1)=1 ' geldiginde yeni parcayi tut
+
+90 WAIT M_IN(1)=0
+100 WAIT M_IN(1)=1 'yapilan montajin ilerleyip onune yenisinin gelmesini bekle
+
+110 M_OUT(2)=1 ' ana konveyore dur emri ver.
+120 MOV P2
+130 MOV P3
+140 M_OUT(1)=0
+150 MOV P3,-50 ' parcanin montajini yap
+160 M_OUT(2)=0 ' ana konveyoru serbest birak
+
+
+170 WAIT M_IN(2)=1
+180 MOV P4,-50
+190 MOV P4
+200 M_OUT(1)=1
+210 MOV P5
+220 M_OUT(1)=0
+230 M_OUT(3)=1
+240 M_OUT(3)=0
+250 GOTO 30
+
+
+
+
